@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e3e890-c657-46e7-910e-e29684b191b5" name="Changes" comment="First commit!">
-      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/build/jar/hello.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/libs/commons-lang3-3.12.0.jar" afterDir="false" />
+    <list default="true" id="93e3e890-c657-46e7-910e-e29684b191b5" name="Changes" comment="Я створив нову директорію my_prj, в ній використав бібліотеку комонленг 12.0, погуглив методи, та використав математичний метод, створив скрипт для запуску..">
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/build/classes/ua/com/alevel/Myy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/build/classes/ua/com/alevel/test/Message_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/build/jar/myy.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691407028906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Я створив нову директорію my_prj, в ній використав бібліотеку комонленг 12.0, погуглив методи, та використав математичний метод, створив скрипт для запуску..">
+      <option name="closed" value="true" />
+      <created>1692127417566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692127417566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit!" />
+    <MESSAGE value="Я створив нову директорію my_prj, в ній використав бібліотеку комонленг 12.0, погуглив методи, та використав математичний метод, створив скрипт для запуску.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Я створив нову директорію my_prj, в ній використав бібліотеку комонленг 12.0, погуглив методи, та використав математичний метод, створив скрипт для запуску.." />
   </component>
 </project>
