@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93e3e890-c657-46e7-910e-e29684b191b5" name="Changes" comment="" />
+    <list default="true" id="93e3e890-c657-46e7-910e-e29684b191b5" name="Changes" comment="First commit!">
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/package/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/package/ua/com/alevel/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/separate_package/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/separate_package/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/simple/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/union/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_1/union/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/depends/libs/commons-lang3-3.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/depends/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/depends/src/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/depends/src/ua/com/alevel/depends/Depends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/depends/src/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_1/libs/commons-lang3-3.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_1/resources/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_1/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_1/src/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_1/src/ua/com/alevel/depends/Depends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_1/src/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_2/libs/commons-lang3-3.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_2/resources/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_2/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_2/src/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_2/src/ua/com/alevel/depends/Depends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/final_2/src/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/minimal_jar/resources/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/minimal_jar/src/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/minimal_jar/src/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/minimal_proj/src/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/minimal_proj/src/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/build/classes/ua/com/alevel/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/build/classes/ua/com/alevel/test/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/resources/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/src/ua/com/alevel/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/_level_2/my_prj/src/ua/com/alevel/test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_1_compilation/java/remove_class.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +52,67 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5a0865a8-ef50-471c-9a79-90ea70a9ede3" />
+        <option name="url" value="https://github.com/Medyanik-Mykola/java_8_online.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="2Teb9UVKf7gxJIo0wSeVDWqQ6v2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "vcs.Perforce"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Nick/IdeaProjects/java_8_online/hw_1_compilation/java/_level_2/my_prj",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\my_prj" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\final_2" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\final" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\depends\libs" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\depends" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\my_prj\libs" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\depends\src\ua\com\alevel\depends" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_2\minimal_proj\src" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_1\separate_package\ua\com\alevel\test" />
+      <recent name="C:\Users\Nick\IdeaProjects\java_8_online\hw_1_compilation\java\_level_1\package\ua\com\alevel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KKK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KKK" />
+      <module name="java_8_online" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KKK" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +122,38 @@
       <option name="presentableId" value="Default" />
       <updated>1691406341445</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit!">
+      <option name="closed" value="true" />
+      <created>1691406946749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691406946749</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit!">
+      <option name="closed" value="true" />
+      <created>1691407028906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691407028906</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit!" />
   </component>
 </project>
