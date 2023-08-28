@@ -7,6 +7,7 @@ import java.io.IOException;
 public class Exercise_1 {
     public void java () {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Exercise_1");
         System.out.println("Please enter a string ");
         try {
             String stroka = bufferedReader.readLine();
@@ -21,6 +22,7 @@ public class Exercise_1 {
                 }
             }
             System.out.println("SUM: " + sum);
+
 
         } catch (IOException e) {
             throw new RuntimeException(e);
