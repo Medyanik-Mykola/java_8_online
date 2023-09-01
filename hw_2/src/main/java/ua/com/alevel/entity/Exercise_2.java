@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class Exercise_2 {
 
-    public void convert(){
+    public void convert() {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Exercise_2");
         System.out.println("Please enter a string ");
@@ -20,7 +20,7 @@ public class Exercise_2 {
 
             int count = 1;
 
-            for(Map.Entry<Character, Integer> entry : charCountMap.entrySet()){
+            for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
                 System.out.println(count + ". " + entry.getKey() + " - " + entry.getValue());
                 count++;
             }
@@ -29,14 +29,14 @@ public class Exercise_2 {
         }
     }
 
-    public static Map<Character, Integer> countAndSortLatinCharacters(String stroka2){
+    public static Map<Character, Integer> countAndSortLatinCharacters(String stroka2) {
         Map<Character, Integer> charCountMap = new TreeMap<>();
 
         String regex = "[a-zA-Z]";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(stroka2);
 
-        while (matcher.find()){
+        while (matcher.find()) {
             char character = matcher.group().charAt(0);
             charCountMap.put(character, charCountMap.getOrDefault(character, 0) + 1);
         }
@@ -44,4 +44,3 @@ public class Exercise_2 {
         return charCountMap;
     }
 }
-

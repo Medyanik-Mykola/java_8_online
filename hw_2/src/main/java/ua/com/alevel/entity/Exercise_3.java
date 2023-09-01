@@ -10,20 +10,17 @@ public class Exercise_3 {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Exercise_3");
         System.out.println("Please enter a number of lesson: ");
-        try{
+        try {
             int lessonNumber = Integer.parseInt(bufferedReader.readLine());
-            int firstLesson= 9 * 60;
+            int firstLesson = 9 * 60;
             int lessonDuration = 45;
             int totalMinutes = firstLesson + lessonNumber * lessonDuration + (15 * ((lessonNumber - 1) / 2)) + (5 * (lessonNumber / 2));
             System.out.println(totalMinutes);
             int hours = totalMinutes / 60;
             int minutes = totalMinutes % 60;
             System.out.println("TIME " + hours + ":" + minutes);
-
-
-        }catch (IOException e){
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
-
 }
