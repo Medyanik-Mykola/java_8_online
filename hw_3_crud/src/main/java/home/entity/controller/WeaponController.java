@@ -37,6 +37,7 @@ public class WeaponController {
         switch (position) {
             case "1" -> create(bufferedReader);
             case "2" -> findAll();
+            case "3" -> update(bufferedReader);
             case "0" -> System.exit(0);
             case "4" -> delete(bufferedReader);
         }
@@ -70,4 +71,18 @@ public class WeaponController {
         System.out.println("Objects were deleted.");
         System.out.println(" ");
     }
+    private void update(BufferedReader reader) throws IOException {
+        System.out.println("Please enter ID of Weapon to update: ");
+        String id = reader.readLine();
+        System.out.println("Please enter updated name: ");
+        String name = reader.readLine();
+        System.out.println("Please enter updated damage: ");
+        int damage = Integer.parseInt(reader.readLine());
+        System.out.println("Please enter updated ammo: ");
+        int ammo = Integer.parseInt(reader.readLine());
+
+        weaponService.update(id, name, damage, ammo);
+        System.out.println("Weapon updated successfully.");
+    }
+
 }

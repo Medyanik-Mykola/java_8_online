@@ -18,6 +18,9 @@ public class WeaponDB {
     public void delete(Weapon weapon){
         weapons.remove(weapon);
     }
+    public void update(String id, String name, int damage, int ammo) {
+    }
+
 }
 
 

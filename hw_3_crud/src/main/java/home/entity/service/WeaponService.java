@@ -38,5 +38,20 @@ public class WeaponService {
             System.out.println("Weapon with ID " + id + " not found.");
         }
     }
+
+    public void update(String id, String name, int damage, int ammo) {
+        ArrayList<Weapon> weapons = weaponDB.findAll();
+        for (Weapon weapon : weapons) {
+            if (weapon.getId().equals(id)) {
+                weapon.setName(name);
+                weapon.setDamage(damage);
+                weapon.setAmmo(ammo);
+                return;
+            }
+        }
+        System.out.println("Weapon with ID " + id + " not found.");
+    }
+
+
 }
 
