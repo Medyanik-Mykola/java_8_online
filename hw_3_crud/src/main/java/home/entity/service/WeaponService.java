@@ -21,6 +21,7 @@ public class WeaponService {
     public ArrayList<Weapon> findAll() {
         return weaponDB.findAll();
     }
+
     public void delete(String id) {
         ArrayList<Weapon> weapons = weaponDB.findAll();
         Weapon foundWeapon = null;
@@ -51,7 +52,4 @@ public class WeaponService {
         }
         System.out.println("Weapon with ID " + id + " not found.");
     }
-
-
 }
-

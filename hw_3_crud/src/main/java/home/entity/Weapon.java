@@ -38,6 +38,3 @@ public class Weapon {
         this.id = id;
     }
 }
-
-
-

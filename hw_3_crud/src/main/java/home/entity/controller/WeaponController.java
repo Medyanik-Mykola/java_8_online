@@ -14,16 +14,17 @@ public class WeaponController {
 
     private WeaponService weaponService = new WeaponService();
 
-    public void start () throws IOException {
+    public void start() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         menu();
         String position = "";
-        while ((position = bufferedReader.readLine()) != null){
+        while ((position = bufferedReader.readLine()) != null) {
             crud(position, bufferedReader);
             menu();
         }
     }
-    private void menu (){
+
+    private void menu() {
         System.out.println("1. Create Weapon");
         System.out.println("2. View Weapons");
         System.out.println("3. Update Weapon");
@@ -33,6 +34,7 @@ public class WeaponController {
         System.out.print("Select an option: ");
 
     }
+
     public void crud(String position, BufferedReader bufferedReader) throws IOException {
         switch (position) {
             case "1" -> create(bufferedReader);
@@ -42,7 +44,8 @@ public class WeaponController {
             case "4" -> delete(bufferedReader);
         }
     }
-    private void create (BufferedReader reader) throws IOException{
+
+    private void create(BufferedReader reader) throws IOException {
         System.out.println("Please enter name of Weapon: ");
         String name = reader.readLine();
         System.out.println("Please enter damage: ");
@@ -53,24 +56,27 @@ public class WeaponController {
         String id = reader.readLine();
         weaponService.create(name, damage, ammo, id);
     }
-    private void findAll (){
+
+    private void findAll() {
         ArrayList<Weapon> weapons = weaponService.findAll();
         for (Weapon item : weapons) {
             System.out.println(" ");
-            System.out.println("Weapon name = " + item.getName() + ", id: " + item.getId() );
+            System.out.println("Weapon name = " + item.getName() + ", id: " + item.getId());
             System.out.println("Damage = " + item.getDamage());
             System.out.println("Ammo = " + item.getAmmo());
             System.out.println(" ");
         }
 
     }
-    private void delete (BufferedReader reader)throws IOException {
+
+    private void delete(BufferedReader reader) throws IOException {
         System.out.println("Please enter ID of Weapon which u want to delete: ");
         String id = reader.readLine();
         weaponService.delete(id);
         System.out.println("Objects were deleted.");
         System.out.println(" ");
     }
+
     private void update(BufferedReader reader) throws IOException {
         System.out.println("Please enter ID of Weapon to update: ");
         String id = reader.readLine();
